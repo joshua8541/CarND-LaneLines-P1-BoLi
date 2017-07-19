@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I detected the edges with Canny edge detection. Meanwhile, I defined a polygon region of interest based on the poses of the two lanes. Finally, I ran the Hough transform on the edge detected image to locate the candidate lines along the two lanes. 
-![alt text](/Users/Joshua/CarND-LaneLines-P1/test_images_lines/lines_solidYellowCurve.jpg)
+![alt text](./lines_solidYellowCurve.jpg)
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function to draw_lines_solid() by averaging the slope and intercept of candidate lines of left and right lanes perspectively.
 ![alt text](./lines_solidWhiteRight.jpg)
