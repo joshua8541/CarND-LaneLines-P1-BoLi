@@ -33,9 +33,11 @@ One potential shortcoming would be that no lines might not be detected in some f
 
 Another shortcoming could be that it's kind of very tricky to set the parameters for hough transform, and even the region of interest.
 
+The performance on challange.mp4 was terrible....
+
 
 ### 3. Suggest possible improvements to your pipeline
 
 A possible improvement would be to track the lanes detected in the previous frame if lanes were missing in the current frame.
 
-Another potential improvement could be to the efficiency of the python code. I don't have too much experience on Python. For example, the code rewriting of draw_lines() could be greatly optimized by using the np.array and other libraries.
+Another potential improvement could be to the efficiency of the python code. I don't have too much experience on Python. For example, the code rewriting of draw_lines() could be greatly optimized by using the np.array and other libraries. It couldn't be better if you can give me some hints to improve my coding skills.
