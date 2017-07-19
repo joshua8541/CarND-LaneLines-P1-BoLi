@@ -23,7 +23,7 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 ![alt text](/Users/Joshua/CarND-LaneLines-P1/test_images_lines/lines_solidYellowCurve.jpg)
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function to draw_lines_solid() by averaging the slope and intercept of candidate lines of left and right lanes perspectively.
-![alt text](/CarND-LaneLines-P1-BoLi/lines_solidWhiteRight.jpg)
+![alt text](./lines_solidWhiteRight.jpg)
 
 
 ### 2. Identify potential shortcomings with your current pipeline
